@@ -1,0 +1,47 @@
+/* Contact Page Styling */
+* {
+    color: #505050;
+    text-align: center;
+}
+
+body {
+    background: #e6e6e6;
+}
+
+.contact-header {
+    background: none;
+    height: 35%;
+}
+
+.contactUs {
+    font-size: 6rem;
+}
+
+nav a {
+    color:#505050;
+}
+
+p {
+    display: block;
+    text-align: center;
+    max-width: none;
+    line-height: 1;
+    padding: 0.8rem;
+
+}
+
+#gmap_canvas {
+    margin: 25px auto;
+    width: 75%;
+    height: 400px;
+}
+
+@media screen and (max-width: 550px){
+    .contact-header {
+        height: 20%;
+    }
+
+    .contactUs {
+        font-size: 4.5rem;
+    }
+}

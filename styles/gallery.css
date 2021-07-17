@@ -1,0 +1,20 @@
+/* Gallery styling*/
+.gallery-nav {
+    height: 35%;
+}
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.gallery-column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.gallery-column img {
+    margin-top: 8px;
+    width: 100%;
+}
