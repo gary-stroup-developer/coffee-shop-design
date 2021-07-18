@@ -18,3 +18,20 @@
     margin-top: 8px;
     width: 100%;
 }
+
+@media screen and (max-width: 475px) {
+    .gallery-nav nav a {
+        font-size: 0.65rem;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .gallery-nav {
+        height: 40%;
+    }
+
+    .gallery-nav h1 {
+        font-size: 5rem;
+    }
+
+  }

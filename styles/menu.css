@@ -140,7 +140,10 @@ form >* {
       max-width: 100%;
     }
 
+    header h1 {
+        font-size: 5.8rem;
     
+    }
 
   }
 
@@ -161,6 +164,20 @@ form >* {
 
     hr {
         margin-top: 0;
+    }
+
+    nav a {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+  }
+
+  @media screen and (max-width: 375px) {
+    nav a {
+        font-size: 0.65rem;
+        margin: 5px;
+        padding: 5px;
     }
 
   }

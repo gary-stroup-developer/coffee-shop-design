@@ -14,7 +14,7 @@ body {
 }
 
 .contactUs {
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 nav a {
@@ -36,12 +36,27 @@ p {
     height: 400px;
 }
 
+
 @media screen and (max-width: 550px){
     .contact-header {
-        height: 20%;
+        height: 40%;
     }
 
     .contactUs {
         font-size: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .contact-header {
+        height: 40%;
+    }
+
+    .contact-header h1 {
+        font-size: 4rem;
+    }
+
+    .contactUs {
+        font-size: 4rem;
     }
 }
